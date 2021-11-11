@@ -1,0 +1,45 @@
+.container {
+  // max-width: 1080px;
+  width: 100%;
+  height: auto;
+}
+
+.hero {
+  height: 85vh;
+  width: 100%;
+  background: url(../../assets/hero2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media(max-width: 1260px){
+  .hero {
+    height: 80vh;
+  }
+}
+
+@media(max-width: 1200px){
+  .hero {
+    height: 75vh;
+  }
+}
+
+@media(max-width: 1120px){
+  .hero {
+    height: 70vh;
+  }
+}
+
+@media(max-width: 1000px){
+  .hero {
+    height: 60vh;
+  }
+}
+
+@media(max-width: 860px){
+  .hero {
+    height: 50vh;
+    background-size: cover;
+
+  }
+}

@@ -1,0 +1,131 @@
+.shadow {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.22) 10px 60px 35px 0px inset;
+}
+
+.container {
+  padding: 0.4rem 0;
+
+  font-size: 1.5rem;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ffffff;
+  font-weight: bold;
+  // margin-left: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+@media(max-width: 1700px){
+  .logo {
+    margin-left: 1.5rem;
+  }
+}
+
+.headerOptions {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 0 1rem 0 1rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.headerOptions:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: #FF585D;
+
+  text-decoration: underline;
+}
+
+.headerOptionsHost {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 0 1.5rem -8px 1rem;
+  font-size: 0.9rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.headerOptionsHost:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: #FF585D;
+
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 15px;
+  border-radius: 25px;
+}
+
+.headerIconGlobe{ 
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 1.4rem;
+  margin-bottom: -8px;
+  font-size: 1rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.headerIconGlobe:hover{
+  cursor: pointer;
+  color: #FF585D;
+
+  font-size: 2.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 8px 8px;
+  border-radius: 25px;
+}
+
+.middleOptions{
+  margin-right: -10rem;
+}
+
+.endOptions {
+  display: flex;
+  align-items: center;
+  margin-right: -1rem;
+}
+
+
+.logoLink {
+  text-decoration: none;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoLink:hover{
+  text-decoration: none;
+}
+
+.logoAirbnb{
+  margin-left: 5px;
+  font-weight: 500;
+  
+  font-family: 'Dongle', sans-serif;
+  font-size: 2.3rem;
+  margin-top: 0.4rem;
+  text-decoration: none;
+}
+
+@media (max-width: 1620px) {
+  .endOptions{
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .headerOptions{
+    display: none;
+  }
+}

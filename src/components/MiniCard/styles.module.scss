@@ -1,0 +1,19 @@
+.cards{
+  display: flex;
+}
+
+.city {
+  font-weight: bold;
+  margin: 12px 0  0 12px;
+}
+
+.cardImg {
+  width: 65px;
+  height: 65px;
+  border-radius: 15px;
+}
+
+.cardImg:hover{
+  cursor: pointer;
+  filter: brightness(0.6);
+}
