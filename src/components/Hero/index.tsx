@@ -1,4 +1,3 @@
-import React from 'react';
 import { Header } from '../Header';
 import { SearchEngine } from '../SearchEngine';
 
@@ -11,10 +10,8 @@ export function Hero() {
         <div className={styles.hero}>
           <Header />
           <SearchEngine />
-
         </div>
       </div>
-
     </>
   )
 }

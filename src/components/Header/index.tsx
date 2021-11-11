@@ -1,5 +1,3 @@
-import React from 'react';
-
 import styles from './styles.module.scss';
 import { SiAirbnb } from 'react-icons/Si';
 import { BurguerMenu } from '../BurguerMenu';
@@ -32,10 +30,8 @@ export function Header() {
 
             <BurguerMenu />
           </div>
-
         </div>
       </div>
-
     </>
   )
 }

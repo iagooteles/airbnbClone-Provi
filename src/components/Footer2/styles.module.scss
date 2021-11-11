@@ -1,7 +1,6 @@
 .container {
   max-width: 1620px;
   margin: 0 auto;
-
   display: flex;
   justify-content: space-between;
 }
@@ -9,7 +8,6 @@
 .content {
   display: flex;
   justify-content: center;
-
 }
 
 .textFooter {
@@ -23,10 +21,10 @@
   font-size: 0.9rem;
   color: black;
 }
+
 .textFooterRS:hover{
   text-decoration: none;
 }
-
 
 .textFooterEnglish {
   margin-right: 25px;

@@ -1,7 +1,6 @@
 import { IconButton, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
 import { GiHamburgerMenu } from 'react-icons/Gi';
 import { MdAccountCircle } from 'react-icons/Md';
-import React from 'react';
 
 import styles from './styles.module.scss';
 

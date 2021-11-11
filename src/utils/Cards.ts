@@ -1,22 +1,22 @@
-import outdoor from '../assets/bigCards/outdoor.jpg'
-import unique from '../assets/bigCards/unique.jpg'
-import entireHome from '../assets/bigCards/entireHome.jpg'
-import dog from '../assets/bigCards/dog.jpg'
+import Outdoor from '../assets/bigCards/outdoor.jpg'
+import Unique from '../assets/bigCards/unique.jpg'
+import EntireHome from '../assets/bigCards/entireHome.jpg'
+import Dog from '../assets/bigCards/dog.jpg'
 
 
 
 
 export const Cards = [{
-  img: outdoor,
+  img: Outdoor,
   description: "Outdoor getaways"
 },{
-  img: unique,
+  img: Unique,
   description: 'Unique stays'
 },{
-  img: entireHome,
+  img: EntireHome,
   description: 'Entire homes'
 },{
-  img: dog,
+  img: Dog,
   description: 'Pet Friendly'
 }
 ]

@@ -1,7 +1,4 @@
-import React from 'react';
-
 import styles from './styles.module.scss';
-
 
 export function Banner() {
   return (
@@ -15,7 +12,6 @@ export function Banner() {
           </div>
         </div>
       </div>
-
     </>
   )
 }

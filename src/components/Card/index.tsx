@@ -1,6 +1,3 @@
-import React from 'react';
-import { Cards } from '../../utils/Cards';
-
 import styles from './styles.module.scss';
 
 type Card ={

@@ -1,12 +1,8 @@
-import React from 'react';
 import { Footer2 } from '../Footer2';
 
 import styles from './styles.module.scss';
 
-
-
 export function Footer() {
-
   return (
     <>
       <div className={styles.containerAllFooter}>
@@ -49,16 +45,12 @@ export function Footer() {
             <a href="#" className={styles.link}>Airbnb Luxe</a>
           </div>
 
-
         </div>
 
         <hr className={styles.hrFooter} />
 
-
         <Footer2 />
       </div>
-
-
     </>
   )
 }

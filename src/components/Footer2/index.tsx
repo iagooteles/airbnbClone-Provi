@@ -1,13 +1,9 @@
-import React from 'react';
-
 import styles from './styles.module.scss';
 
 import {FiGlobe} from 'react-icons/Fi';
 import {FaFacebookF} from 'react-icons/Fa';
 import {AiOutlineTwitter} from 'react-icons/Ai';
 import {ImInstagram} from 'react-icons/Im';
-
-
 
 export function Footer2() {
 
@@ -30,9 +26,7 @@ export function Footer2() {
           <FaFacebookF  className={styles.iconsFooter} size={18} />
           <AiOutlineTwitter  className={styles.iconsFooter} size={18} />
           <ImInstagram  className={styles.iconsFooter} size={18} />
-
         </div>
-        
       </div>
     </>
   )

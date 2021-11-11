@@ -1,6 +1,3 @@
-import React from 'react';
-import { Header } from '../Header';
-
 import styles from './styles.module.scss';
 
 type Text ={
@@ -13,7 +10,6 @@ export function Title(props: Text) {
       <div className={styles.text}>
         <p>{props.text}</p>
       </div>
-
     </>
   )
 }
