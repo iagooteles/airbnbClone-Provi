@@ -24,6 +24,7 @@
 
   border: none;
   background: #ffffff;
+
 }
 
 .profile {
@@ -32,10 +33,18 @@
   margin-bottom: -6px;
 }
 
-.option {
-  background: #ffffff;
-  border: none;
-  font-size: 3rem;
+.optionMenu {
+  border-radius: 25px;
+}
+
+.optionDiv {
+  padding: 0.5rem 2.5rem;
+  display: flex;
+  font-size: 1rem;
 
   color: #484848;
+}
+
+.optionText {
+  margin-left: -25px;
 }

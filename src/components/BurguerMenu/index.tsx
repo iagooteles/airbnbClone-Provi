@@ -1,4 +1,4 @@
-import { IconButton, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
+import { IconButton, Menu, MenuButton, MenuDivider, MenuItem, MenuList } from '@chakra-ui/react';
 import { GiHamburgerMenu } from 'react-icons/Gi';
 import { MdAccountCircle } from 'react-icons/Md';
 
@@ -18,28 +18,38 @@ export function BurguerMenu() {
               variant="outline"
             />
 
-            <MenuList className={styles.option}>
+            <MenuList className={styles.optionMenu}>
               <MenuItem>
-                Sign up
+                <div className={styles.optionDiv}>
+                  <p className={styles.optionText}>Sign up</p>
+                </div>
               </MenuItem >
               <MenuItem >
-                Login
+                <div className={styles.optionDiv}>
+                  <p className={styles.optionText}>Login</p>
+                </div>
               </MenuItem>
               <MenuItem >
-                Host your home
+                <div className={styles.optionDiv}>
+                  <p className={styles.optionText}>Host your home</p>
+                </div>
               </MenuItem>
               <MenuItem >
-                Entrar com o Github
+                <div className={styles.optionDiv}>
+                  <p className={styles.optionText}>Entrar com o Github</p>
+                </div>
               </MenuItem >
               <MenuItem >
-                Help
+                <div className={styles.optionDiv}>
+                  <p className={styles.optionText}>Help</p>
+                </div>
               </MenuItem>
             </MenuList>
           </Menu>
-          <MdAccountCircle className={styles.profile} size={30} />
 
+          <MdAccountCircle className={styles.profile} size={30} />
         </div>
-      </div>
+      </div >
     </>
   )
 }
