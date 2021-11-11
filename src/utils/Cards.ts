@@ -3,9 +3,6 @@ import Unique from '../assets/bigCards/unique.jpg'
 import EntireHome from '../assets/bigCards/entireHome.jpg'
 import Dog from '../assets/bigCards/dog.jpg'
 
-
-
-
 export const Cards = [{
   img: Outdoor,
   description: "Outdoor getaways"
