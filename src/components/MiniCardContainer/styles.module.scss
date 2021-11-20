@@ -17,7 +17,6 @@
   }
 
   .content {
-    grid-template-columns: 3rem 3rem 3rem 3rem;
     justify-content: flex-start;
     grid-column-gap: 21rem;
   }
@@ -25,35 +24,32 @@
 
 @media(max-width: 1420px){
   .content {
-    grid-template-columns: 2rem 2rem 2rem 2rem;
     grid-column-gap: 18rem;
   }
 }
 
 @media(max-width: 1260px){
   .content {
-    grid-template-columns: 2rem 2rem 2rem 2rem;
-    grid-column-gap: 15rem;
+    grid-column-gap: 12rem;
   }
 }
 
 @media(max-width: 1040px){
   .content {
-    grid-template-columns: 2rem 2rem 2rem;
-    grid-column-gap: 18rem;
+    grid-template-columns: 4rem 4rem 4rem;
+    grid-column-gap: 12rem;
   }
 }
 
 @media(max-width: 900px){
   .content {
-    grid-template-columns: 2rem 2rem;
-    grid-column-gap: 18rem;
+    grid-template-columns: 4rem 4rem;
   }
 }
 
 @media(max-width: 600px){
   .content {
-    grid-column-gap: 15rem;
+    grid-column-gap: 10rem;
   }
   .styleSeven {
     width: 90%;

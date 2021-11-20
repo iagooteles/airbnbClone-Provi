@@ -1,19 +1,25 @@
 .content {
   display: grid;
   grid-template-columns: 20rem 20rem 20rem 20rem;
-  grid-gap: 5.5rem;
+  grid-gap: 7rem;
 
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
 
-@media(max-width: 1660px){
+@media(max-width: 1680px){
   .content {
-    grid-gap: 3rem;
+    grid-gap: 6rem;
   }
 }
 
-@media(max-width: 1560px){
+@media(max-width: 1650px){
+  .content {
+    grid-gap: 5rem;
+  }
+}
+
+@media(max-width: 1600px){
   .content {
     grid-gap: 2rem;
   }

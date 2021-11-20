@@ -9,14 +9,10 @@ export function CardContainer() {
   return (
     <>
       <div className={styles.container}>
-
-      <div className={styles.content}>
-        {cardItems}
+        <div className={styles.content}>
+          {cardItems}
+        </div>
       </div>
-
-      </div>
-
-
     </>
   )
 }

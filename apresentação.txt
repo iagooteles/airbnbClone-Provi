@@ -1,0 +1,3 @@
+Uso de vite como CRA => Create react app.. usado pela rocketseat na ultima NLW.
+Responsividade.
+Separação da página em componentes.
